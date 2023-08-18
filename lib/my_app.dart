@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'view/screens/home_screen.dart';
+import 'view/screens/tictactoe_home_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Widgets App',
-      home: HomeScreen(),
+      home: TictactoeHomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
